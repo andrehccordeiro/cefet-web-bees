@@ -20,6 +20,7 @@ body{
     }
 
     .curiosidade {
+        clear: left;
         border: 1px solid #e3ab02;
         border-radius:5px;
         padding: 15px;
@@ -33,8 +34,11 @@ body{
     }
    
     .casta-de-abelha{
-        border: 5px double #e3ab02;
+        border: 5px double #eead2d;
         border-radius: 50%;
+        width: 200px;   
+        height: auto;   
+
     }
     
     .esquerda{
@@ -49,7 +53,32 @@ body{
         shape-outside: circle(50%);    
     }
 
+    a{
+        color: darkblue;
+        text-decoration: none;
+    }
 
+    a:hover{
+        color: green;               
+        text-decoration: underline;
+    }
+
+    a:visited {
+        
+        color: purple;              
+    }
+
+    a[href^="http"] {
+        background-color: #bdfeff ;
+    }
+
+    p:last-of-type{
+        text-align: right;
+    }
+
+    img:not([alt]){
+        border: 2px solid red;
+    }
 
 
 }
